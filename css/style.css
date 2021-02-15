@@ -72,6 +72,7 @@ td{
   text-align: center;
   border-top: 2px solid #000000;
   padding: 10px;
+  vertical-align: middle;
   /*Looks good?*/
 }
 
@@ -91,6 +92,7 @@ td{
 .rowhead{
   border-right: 2px solid #000000;
   border-top: 2px solid #000000;
+  vertical-align: middle;
 }
 
 /*Req 6d*/
@@ -126,6 +128,10 @@ thead tr:first-child th:last-child{
 
 tbody tr:last-child td:last-child{
   border-bottom-right-radius: 10px;
+}
+
+tbody tr:last-child th:first-child{
+  border-bottom-left-radius: 10px;
 }
 
 /*
