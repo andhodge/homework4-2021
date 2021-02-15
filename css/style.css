@@ -83,6 +83,7 @@ td{
   text-align: center;
   text-transform: uppercase;
   background-color: #7e0820;
+  vertical-align: middle;
   /*No vertical alignment specified*/
 }
 
@@ -104,7 +105,7 @@ tr:nth-child(even) {
 
 /*Req 6f*/
 tr:hover {
-  background-color:rgba(255, 255, 255, 0.25);
+  background-color:rgba(126, 8, 32, 0.25);
   /*Not 100% sure about this...*/
 }
 
