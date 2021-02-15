@@ -112,17 +112,41 @@ tr:hover {
 table{
   border: 2px solid #000000;
   border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-collapse: separate;
+  margin: 0 auto;
 }
 
-  /*Not 100% sure about this...
 thead tr:first-child th:first-child{
+  border-top-left-radius: 10px;
+}
+
+thead tr:first-child th:last-child{
+  border-top-right-radius: 10px;
+}
+
+tbody tr:last-child td:last-child{
+  border-bottom-right-radius: 10px;
+}
+
+/*
+.rowhead td:last-child {
+  background-color: red;
+  border-bottom-left-radius: 10px;
 }
 */
 
-/*Add selectors and rules here*/
 
+/*
+tbody tr:last-child th:last-child{
+    background-color: red;
+  border-bottom-right-radius: 10px;
+}
+*/
+
+/*Add selectors and rules here
+tr:last-child th:last-child{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}*/
 
 /*Req 8*/
 footer{
